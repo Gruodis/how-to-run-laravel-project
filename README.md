@@ -1,4 +1,4 @@
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg](https://laravel.com/img/logomark.min.svg)
+<img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://myoctocat.com/assets/images/base-octocat.svg](https://laravel.com/img/logomark.min.svg">
 <h1 align="center">
 # Hot To Start Laravel Project
 </h1>

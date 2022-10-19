@@ -1,4 +1,5 @@
 <h1 align="center">
+  ![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://laravel.com/img/logomark.min.svg))
 # Hot To Start Laravel Project
 </h1>
 
@@ -7,9 +8,6 @@
 
 </ol>
 
-- < > -
-- < > -
-- <> -
 
 - [ ] - https://linuxhint.com/restart-mysql-in-ubuntu/
 - [ ] - MySQL EXIT Secure install terminal - https://stackoverflow.com/questions/72248776/how-can-i-exit-from-mysql-secure-installation

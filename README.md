@@ -1,4 +1,4 @@
-<img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://laravel.com/img/logomark.min.svg">
+<p align="center"><img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://laravel.com/img/logomark.min.svg"></p>
 <h1 align="center">
 # Hot To Start Laravel Project
 </h1>

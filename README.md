@@ -1,5 +1,5 @@
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg](https://laravel.com/img/logomark.min.svg)
 <h1 align="center">
-  ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg](https://laravel.com/img/logomark.min.svg)
 # Hot To Start Laravel Project
 </h1>
 

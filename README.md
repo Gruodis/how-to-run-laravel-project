@@ -7,6 +7,9 @@
 
 </ol>
 
+- < > -
+- < > -
+- <> -
 
 - [ ] - https://linuxhint.com/restart-mysql-in-ubuntu/
 - [ ] - MySQL EXIT Secure install terminal - https://stackoverflow.com/questions/72248776/how-can-i-exit-from-mysql-secure-installation

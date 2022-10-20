@@ -2,7 +2,7 @@
 <h1 align="center">
 # Hot To Start Laravel Project
 </h1>
-
+This site was built using [GitHub Pages](https://pages.github.com/).
 ## Start from scratch
  - [ ] - install composer [GitHub Pages](https://pages.github.com/](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
 

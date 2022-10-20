@@ -78,7 +78,12 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
           --no-cache                 Prevent use of the cache
       -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
     ```
-## To Install MySQL follow these steps:
+## To Install MySQL [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
+- ### Step 1: Update/Upgrade Package Repository
+  - Open the terminal and run the following command:
+  - ```bash
+sudo apt update
+    ```
 
 - composer install
 - npm install
@@ -95,17 +100,6 @@ DB_PASSWORD=dbpassword
  - [ ] - php artisan optimise
 
 ## Start allready existing project
-- ### Step 2 — Download and Install Composer
-  - #### Make sure you’re in your home directory, then retrieve the Composer installer using curl:
-  - ```bash
-       ______
-      / ____/___  ____ ___  ____  ____  ________  _____
-     / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
-    / /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
-    \____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
-                        /_/
-  ```
-
 
 <ol>
  <li>php artisan serve</li>

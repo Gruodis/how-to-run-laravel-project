@@ -96,14 +96,14 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       mysql --version
       ```
 ## Set root psw for MySQL
-- ### Step 1:
-  - change the authentication parameters to do so just run this command first.
-    -```bash
-     sudo mysql
-     ```
+   - ### Step 1:
+     - change the authentication parameters to do so just run this command first.
+        -```bash
+         sudo mysql
+         ```
 
 1. First list item
-  - First nested list item
+   - First nested list item
      - Second nested list item
      - test
 

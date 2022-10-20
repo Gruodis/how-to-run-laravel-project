@@ -74,7 +74,6 @@ Options:
   -d, --working-dir=WORKING-DIR  If specified, use the given directory as working directory.
       --no-cache                 Prevent use of the cache
   -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
-...
 ```
 
  - [ ] - composer install

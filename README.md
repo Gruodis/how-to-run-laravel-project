@@ -133,7 +133,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       ```
 
 
-
+# IF Composer & MySQL installed
+- ## Step 1:  dependencies as specified in the composer.lock file
 - composer install
 - npm install
 - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**

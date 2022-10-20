@@ -82,8 +82,11 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 - ### Step 1: Update/Upgrade Package Repository
   - Open the terminal and run the following command:
     - ```bash
-       sudo apt update
+      sudo apt update sudo apt upgrade
       ```
+      - ```bash
+      sudo apt upgrade
+     ```
 
 - composer install
 - npm install

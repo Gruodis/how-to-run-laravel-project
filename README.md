@@ -1,8 +1,15 @@
 <p align="center"><img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://laravel.com/img/logomark.min.svg"></p>
 <h1 align="center">
 # Hot To Start Laravel Project
-</h1>
+  composer install
+  npm install
+.env patikrinam , jeigu nera, ieskome .enc.example
+  php artisan migrate --seed
+  php artisan optimize
 
+</h1>
+php artisan serve
+npm run dev
 <ol>
   <li> Pirmas </li>
 

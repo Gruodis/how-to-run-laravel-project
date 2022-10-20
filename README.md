@@ -28,9 +28,7 @@ You’ll see the following output:
 ```bash
 Installer verified
 ```
-
-<h2> </h2> 
-*** Note ***
+**Note**
 
 ### Step 1 — Install Dependencies
 ```bash

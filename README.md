@@ -96,11 +96,36 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       mysql --version
       ```
 ## Set root psw for MySQL
-   - ### Step 1:
-     - change the authentication parameters to do so just run this command first.
-        -```bash
-         sudo mysql
-         ```
+- ### Step 1:
+   - change the authentication parameters to do so just run this command first.
+      - ```bash
+        sudo mysql
+        ```
+- ### Step 2:
+   - Then run This ALTER Query to change the authentication parameters.
+      - ```bash
+        sudo mysql
+        ```
+- ### Step 3:
+   - Then run This ALTER Query to change the authentication parameters.
+      - ```bash
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
+
+        ```
+## If you get this ERROR after step above
+> ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+
+### Posible solutions:
+1. The first one is to Use a Strong Password Just Like Addy@789**$ This Password Will satisfy current policy requirements.
+2. The second one is Just Uninstall validate_password plugin with these two commands:
+  - mysql -h localhost -u root -p
+  - and then
+  - uninstall the plugin validate_password;
+3. The third solution is You can set validate_password.policy to do so Just run:
+  - sudo mysql
+  - and Then
+  - SET GLOBAL validate_password.policy=LOW;
+
 
 1. First list item
    - First nested list item

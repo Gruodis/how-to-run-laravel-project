@@ -6,7 +6,7 @@
 ## Start from scratch
  - [ ] - composer install
  - [ ] - npm install
- - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, **.env SETUP EXAMPLE:**
+ - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**
 ```mysql
 DB_CONNECTION=mysql
 DB_HOST=localhost

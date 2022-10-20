@@ -49,7 +49,7 @@ Use it: php /usr/local/bin/composer
 composer
 ```
 ### Output:
-``bash
+```bash
 Output
    ______
   / ____/___  ____ ___  ____  ____  ________  _____

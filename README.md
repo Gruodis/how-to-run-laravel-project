@@ -28,7 +28,7 @@ You’ll see the following output:
 ```bash
 Installer verified
 ```
-<p style="background-color: #d4efee;">
+<p '#d4efee'>
 _**Note**: If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._
 </p>
 ### Step 1 — Install Dependencies

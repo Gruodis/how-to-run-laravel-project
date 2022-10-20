@@ -4,6 +4,8 @@
 </h1>
 
 ## Start from scratch
+ - [ ] - install composer [GitHub Pages](https://pages.github.com/](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
+
  - [ ] - composer install
  - [ ] - npm install
  - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**
@@ -16,14 +18,14 @@ DB_USERNAME=root
 DB_PASSWORD=dbpassword
 ```
  - [ ] - php artisan migrate --seed
- - [ ] - php artisan optimize
+ - [ ] - php artisan optimise
 
-##
-php artisan serve
-npm run dev
+## Start allready existing project
+
 <ol>
-  <li> Pirmas </li>
-
+ <li>php artisan serve</li>
+ <li>npm run dev </li>
+ <li>if project doesn't start properly, try: php artisan optimise</li>
 </ol>
  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 

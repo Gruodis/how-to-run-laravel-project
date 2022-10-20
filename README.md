@@ -81,9 +81,9 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 ## To Install MySQL [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
 - ### Step 1: Update/Upgrade Package Repository
   - Open the terminal and run the following command:
-  - ```bash
-       sudo apt update
-    ```
+        - ```bash
+           sudo apt update
+        ```
 
 - composer install
 - npm install

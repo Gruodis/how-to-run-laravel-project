@@ -1,9 +1,10 @@
 <p align="center"><img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://laravel.com/img/logomark.min.svg"></p>
 <h1 align="center">
-# Hot To Start Laravel Project
+# Runing Laravel Project
 </h1>
 
-# Start from scratch
+# Start from scratch Composer & MySQL setup.
+<hr>
 # Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
   - ## Step 1 — Install Dependencies
   - ```bash

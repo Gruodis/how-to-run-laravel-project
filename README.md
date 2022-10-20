@@ -29,7 +29,7 @@ You’ll see the following output:
 Installer verified
 ```
 
-<h2> _**Note**: If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._ </h2>
+<h2> **Note**: _If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._ </h2>
 
 ### Step 1 — Install Dependencies
 ```bash

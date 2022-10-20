@@ -128,14 +128,10 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 
 ## FINAL Step: Securing MySQL
 - ### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info
-```bash
-sudo mysql_secure_installation
-```
+    - ```bash
+      sudo mysql_secure_installation
+      ```
 
-1. First list item
-   - First nested list item
-     - Second nested list item
-     - test
 
 
 - composer install

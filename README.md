@@ -3,7 +3,7 @@
 # Runing Laravel Project
 </h1>
 
-# Composer & MySQL setup.
+<h2 align="center"> Composer & MySQL setup.</h2>
 
 <hr />
 

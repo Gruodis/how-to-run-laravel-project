@@ -8,12 +8,12 @@
 <hr />
 
 ## Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
-  - ### Step 1 — Install Dependencies
+- ### Step 1 — Install Dependencies
   - ```bash
     sudo apt update
     sudo apt install php-cli unzip
     ```
-  - ### Step 2 — Download and Install Composer
+- ### Step 2 — Download and Install Composer
   - #### Make sure you’re in your home directory, then retrieve the Composer installer using curl:
   - ```bash
     cd ~

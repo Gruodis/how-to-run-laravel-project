@@ -4,8 +4,39 @@
 </h1>
 
 ## Start from scratch
- - [ ] - install composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
- - [ ] [ ] - test
+ - [ ] - install composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). or follow these steps"
+### Step 1 — Install Dependencies
+```bash
+sudo apt update
+sudo apt install php-cli unzip
+```
+### Step 2 — Download and Install Composer
+Make sure you’re in your home directory, then retrieve the Composer installer using curl:
+```bash
+cd ~
+curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+```
+Using curl, fetch the latest signature and store it in a shell variable:
+```bash
+HASH=`curl -sS https://composer.github.io/installer.sig`
+```
+Now execute the following PHP code to verify that the installation script is safe to run:
+```bash
+php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+```
+You’ll see the following output:
+```bash
+Installer verified
+```
+<p style="background-color: #d4efee;">
+_**Note**: If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._
+</p>
+### Step 1 — Install Dependencies
+```bash
+sudo apt update
+sudo apt install php-cli unzip
+```
+
  - [ ] - composer install
  - [ ] - npm install
  - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**

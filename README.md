@@ -6,7 +6,15 @@
 ## Start from scratch
  - [ ] - composer install
  - [ ] - npm install
- - [ ] - .env patikrinam , jeigu nera, ieskome .enc.example
+ - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env
+```mysql
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=amspauda
+DB_USERNAME=root
+DB_PASSWORD=dbpassword
+```
  - [ ] - php artisan migrate --seed
  - [ ] - php artisan optimize
 

@@ -91,11 +91,16 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       sudo apt install mysql-server
       ```
 
-- ### 3. Check if MySQL was successfully installed by running:
+- ### Step 3: Check if MySQL was successfully installed by running:
     - ```bash
       mysql --version
       ```
-
+## Set root psw for MySQL
+- ### Step 1:
+  - change the authentication parameters to do so just run this command first.
+    -```bash
+     sudo mysql
+     ```
 
 1. First list item
    - First nested list item

@@ -103,7 +103,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
      ```
 
 1. First list item
-   - First nested list item
+  - First nested list item
      - Second nested list item
      - test
 

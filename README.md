@@ -8,6 +8,7 @@
  - [ ] - npm install
  - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env
 ```mysql
+**.env SETUP EXAMPLE:**
 DB_CONNECTION=mysql
 DB_HOST=localhost
 DB_PORT=3306

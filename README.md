@@ -83,7 +83,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
   - Open the terminal and run the following command:
     - ```bash
        sudo apt update
-    ```
+      ```
 
 - composer install
 - npm install

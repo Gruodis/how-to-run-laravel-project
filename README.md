@@ -6,7 +6,7 @@
 # Start from scratch
 - install composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). or follow these steps"
   - ## Step 1 — Install Dependencies
-```bash
+  - ```bash
 sudo apt update
 sudo apt install php-cli unzip
 ```

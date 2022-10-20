@@ -4,7 +4,7 @@
 </h1>
 
 # Start from scratch
-- ## Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). or follow these steps:
+- ## Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
   - ## Step 1 — Install Dependencies
   - ```bash
     sudo apt update
@@ -76,9 +76,9 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
     ```
 
- - [ ] - composer install
- - [ ] - npm install
- - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**
+- composer install
+- npm install
+- patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**
 ```mysql
 DB_CONNECTION=mysql
 DB_HOST=localhost

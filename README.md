@@ -2,10 +2,9 @@
 <h1 align="center">
 # Hot To Start Laravel Project
 </h1>
-Admin: [localhost:5000/admin654fhpgdg/index.php](localhost:5000/admin654fhpgdg/index.php)
 
 ## Start from scratch
- - [ ] - install composer [GitHub Pages](https://pages.github.com/](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
+ - [ ] - install composer [GitHub Pages](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
 
  - [ ] - composer install
  - [ ] - npm install

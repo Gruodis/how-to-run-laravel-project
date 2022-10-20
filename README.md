@@ -31,6 +31,15 @@ Installer verified
 > **Note:**
 _If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._
 
+The following command will download and install Composer as a system-wide command named **composer**, under **/usr/local/bin**:
+```bash
+sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+```
+### Step 1 — Install Dependencies
+```bash
+sudo apt update
+sudo apt install php-cli unzip
+```
 ### Step 1 — Install Dependencies
 ```bash
 sudo apt update

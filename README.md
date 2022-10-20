@@ -4,8 +4,8 @@
 </h1>
 
 ## Start from scratch
- - [ ] - install composer [link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
- - [ ] 
+ - [ ] - install composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart). 
+ - [ ] [ ] - test
  - [ ] - composer install
  - [ ] - npm install
  - [ ] - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> **.env SETUP EXAMPLE:**

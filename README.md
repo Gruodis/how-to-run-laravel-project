@@ -226,15 +226,11 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
   - ```bash
     npm run dev
     ```
-> URL is found on ***"php artisan server"*** terminal: Server running on [ipnumber:port]
-<ol>
- <li>php artisan serve</li>
- <ol>
-  <li>open url: Server running on</li>
- </ol>
- <li>npm run dev</li>
- <li>if project doesn't start properly, try: php artisan optimize</li>
-</ol>
+> URL is found on ***"php artisan server"*** terminal: Server running on [IP:port]
+> If project doesn't start properly, try: 
+```bash
+php artisan optimize
+```
 
 <br />
 <hr />

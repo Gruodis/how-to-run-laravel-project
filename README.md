@@ -20,8 +20,18 @@
 Linux essential DIR nav cmd:
 
   - ```cd ~```  & ```cd``` : is used to change directory to the home directory.
-  - ```cd..``` : is used to move to the parent directory of current directory, or the directory one level up from the current directory. “..” represents parent directory. 
+  - ```bash 
+        cd ~
+        cd
+    ```
+  - ```cd..``` : is used to move to the parent directory of current directory, or the directory one level up from the current directory. “..” represents parent directory.
+  - ```bash
+    cd..
+    ```
   - ```pwd ``` stands for Print Working Directory. It prints the path of the working directory, starting from the root.
+    ```bash
+      pwd
+      ```
 
 ## :computer: To Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps
 - ### Step 1: Install Dependencies

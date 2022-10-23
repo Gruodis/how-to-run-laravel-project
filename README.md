@@ -33,6 +33,10 @@ Linux essential DIR nav cmd:
       pwd
       ```
 
+<br />
+<hr />
+<br />
+
 ## :computer: To Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps
 - ### Step 1: Install Dependencies
   - ```bash

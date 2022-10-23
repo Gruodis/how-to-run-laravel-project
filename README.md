@@ -5,6 +5,16 @@
 
 <h1 align="center"> Composer & MySQL setup.</h1>
 
+<p align="center">
+- [Install Composer](#computer-to-install-composer-open-setup-link-or-follow-these-steps)
+- [Install MySQL](#computer-to-install-mysql-use-this-linkrecommended-or-quick-start-guidenot-recommended-or-follow-these-steps)
+- [Configure MySQL](#wrench-configuring-mysql)
+- [Final Steps MySQL](#computer-mysql-setup-final-step-securing-mysql)
+- [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
+- [Start Project](#computer-start-existing-project)
+- [If something fails](#bangbang-if-project-doesnt-start-properly-try)
+</p>
+
 <br />
 <hr />
 <br />

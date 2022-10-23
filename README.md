@@ -127,12 +127,14 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
    - and Then
    - SET GLOBAL validate_password.policy=LOW;
 
-## FINAL Step: Securing MySQL
-- ### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info
+### FINAL Step: Securing MySQL
+- #### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info
     - ```bash
       sudo mysql_secure_installation
       ```
+
 <hr />
+
 
 # IF Composer & MySQL installed
 - ## Step 1:  dependencies as specified in the composer.lock file

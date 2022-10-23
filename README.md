@@ -89,7 +89,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-# To Install MySQL [use this link](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)(recommended) or [quick start guide](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart)(NOT recommended) or follow these steps:
+## :computer: To Install MySQL [use this link](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)(recommended) or [quick start guide](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart)(NOT recommended) or follow these steps:
 - #### Step 1: Update/Upgrade Package Repository
     - ```bash
       sudo apt update
@@ -116,7 +116,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-# Configuring MySQL
+## :wrench: Configuring MySQL
 - ### Step 1:
    - First, open up the MySQL prompt:
     - ```bash
@@ -135,7 +135,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       exit
       ```
 
-#### If you get this ERROR after step above
+#### :bangbang: If you get this ERROR after step above
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
 
 #### Posible solutions:
@@ -162,7 +162,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-# MySQL Setup FINAL Step: Securing MySQL
+## :computer: MySQL Setup FINAL Step: Securing MySQL
 - #### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info or follow these guidlines:
 
 - ### Step 1:
@@ -187,7 +187,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-# IF Composer & MySQL installed
+## :computer: IF Composer & MySQL installed
 - ## Step 1:  
   - Install dependencies as specified in the composer.lock file:
   - ```bash 
@@ -217,7 +217,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       php artisan optimize
       ```
 
-# Start existing project:
+## :computer: Start existing project:
 
 - ### Run easch command in separate terminal window:
   - ```bash
@@ -226,8 +226,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
   - ```bash
     npm run dev
     ```
-> URL is found on ***"php artisan server"*** terminal: Server running on [IP:port]
-> If project doesn't start properly, try: 
+> :earth_africa: URL is found on ***"php artisan server"*** terminal: Server running on [IP:port]
+> :bangbang: If project doesn't start properly, try: 
 ```bash
 php artisan optimize
 ```

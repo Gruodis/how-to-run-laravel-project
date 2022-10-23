@@ -244,7 +244,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       DB_USERNAME=root
       DB_PASSWORD=dbpassword
       ```
-  - If .env doesn't exist, find .env.example & rename to .env. 
+- :interrobang: If .env doesn't exist, find .env.example & rename to .env. 
   - ```bash
     cp .env.example .env
     ```

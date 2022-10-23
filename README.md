@@ -153,18 +153,18 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 - #### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info or follow these guidlines:
 
 - ### Step 1:
-   - #### Following that, you can run the mysql_secure_installation script without issue:
+   - Following that, you can run the mysql_secure_installation script without issue:
     - ```bash
       sudo  mysql_secure_installation
       ```
 
 - ### Step 2:
-   - #### Once the security script completes, you can then reopen MySQL and change the root user’s authentication method back to the default, auth_socket. To authenticate as the root MySQL user using a password, run this command:
+   - Once the security script completes, you can then reopen MySQL and change the root user’s authentication method back to the default, auth_socket. To authenticate as the root MySQL user using a password, run this command:
     - ```bash
       mysql -u root -p
       ```
 - ### Step 3:
-   - #### Then go back to using the default authentication method using this command:
+   - Then go back to using the default authentication method using this command:
     - ```bash
       ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
       ```

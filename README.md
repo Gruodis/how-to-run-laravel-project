@@ -17,18 +17,18 @@
 <br />
 <hr />
 <br />
-- Linux essential DIR nav cmd:
+### Linux essential DIR nav cmd:
 
-  - ```cd ~```  & ```cd``` is used to change directory to the home directory.
+  - ```cd ~```  & ```cd```  is used to change directory to the home directory.
     - ```bash
       cd ~
       cd
       ```
-  - ```cd..``` is used to move to the parent directory of current directory, or the directory one level up from the current directory. “..” represents parent directory.
+  - ```cd..```  is used to move to the parent directory of current directory, or the directory one level up from the current directory. “..” represents parent directory.
     - ```bash
       cd..
       ```
-  - ```pwd``` stands for Print Working Directory. It prints the path of the working directory, starting from the root.
+  - ```pwd```  stands for Print Working Directory. It prints the path of the working directory, starting from the root.
     - ```bash
       pwd
       ```

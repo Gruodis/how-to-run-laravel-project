@@ -10,38 +10,39 @@
 <br />
 
 ## To Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
-- ### Step 1
-  - — Install Dependencies:
-    - ```bash
-      sudo apt update
-      sudo apt install php-cli unzip
+- ### Step 1 — Install Dependencies:
+  - ```bash
+    sudo apt update
+    sudo apt install php-cli unzip
       ```
+<hr />
+    
 - ### Step 2 — Download and Install Composer
-  - #### Make sure you’re in your home directory, then retrieve the Composer installer using curl:
+  -  — Make sure you’re in your home directory, then retrieve the Composer installer using curl:
   - ```bash
     cd ~
     curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
     ```
-  - #### Using curl, fetch the latest signature and store it in a shell variable:
+  -  — Using curl, fetch the latest signature and store it in a shell variable:
   - ```bash
     HASH=`curl -sS https://composer.github.io/installer.sig`
     ```
-  - #### Now execute the following PHP code to verify that the installation script is safe to run:
+  -  — Now execute the following PHP code to verify that the installation script is safe to run:
   - ```bash
     php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
     ```
-  - #### You’ll see the following output:
+  -  — You’ll see the following output:
   - ```bash
     Installer verified
     ```
   - > **Note:**
 _If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._
 
-  - #### The following command will download and install Composer as a system-wide command named **composer**, under **/usr/local/bin**:
+  -  — The following command will download and install Composer as a system-wide command named **composer**, under **/usr/local/bin**:
   - ```bash
     sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
     ```
-  - #### You’ll see output similar to this:
+  -  — You’ll see output similar to this:
   - ```bash
     Output
     All settings correct for using Composer
@@ -50,11 +51,13 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     Composer (version 2.3.5) successfully installed to: /usr/local/bin/composer
     Use it: php /usr/local/bin/composer
     ```
-  - ### To test your installation, run:
+<hr />
+    
+- ### To test your installation, run:
   - ```bash
     composer
     ```
-  - ### Output:
+- ### Output:
   - ```bash
     Output
        ______
@@ -115,19 +118,19 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 
 # Configuring MySQL
 - ### Step 1:
-   - #### First, open up the MySQL prompt:
+   - — First, open up the MySQL prompt:
     - ```bash
       sudo mysql
       ```
       
 - ### Step 2:
-   - #### Then run the following ALTER USER command to change the root user’s authentication method to one that uses a password. The following example changes the authentication method to mysql_native_password:
+   - — Then run the following ALTER USER command to change the root user’s authentication method to one that uses a password. The following example changes the authentication method to mysql_native_password:
     - ```bash
       ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mynewpassword';
       ```
       
 - ### Step 3:
-   - #### After making this change, exit the MySQL prompt:
+   -  — After making this change, exit the MySQL prompt:
     - ```bash
       exit
       ```
@@ -138,13 +141,13 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 #### Posible solutions:
 1. The first one is to Use a Strong Password Just Like Addy@789**$ This Password Will satisfy current policy requirements.
 2. The second one is Just Uninstall validate_password plugin with these two commands:
-   - mysql -h localhost -u root -p
-   - and then
-   - uninstall the plugin validate_password;
+     — mysql -h localhost -u root -p
+     — and then
+     — uninstall the plugin validate_password;
 3. The third solution is You can set validate_password.policy to do so Just run:
-   - sudo mysql
-   - and Then
-   - SET GLOBAL validate_password.policy=LOW;
+     — sudo mysql
+     — and Then
+     — SET GLOBAL validate_password.policy=LOW;
 
 <br />
 <hr />

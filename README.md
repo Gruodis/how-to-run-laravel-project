@@ -23,9 +23,9 @@
 
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 
   - ```bash
-      cd ~
-      cd
-      ```
+    cd ~
+    cd
+    ```
   - ```cd..```  is used to move to the parent directory of current directory, or the directory one level up from the current directory. “..” represents parent directory.
   - ```bash
     cd..

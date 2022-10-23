@@ -141,15 +141,22 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 #### Posible solutions:
 1. The first one is to Use a Strong Password Just Like Addy@789**$ This Password Will satisfy current policy requirements.
 2. The second one is Just Uninstall validate_password plugin with these two commands:
-   - — mysql -h localhost -u root -p
+   -  ```bash
+      mysql -h localhost -u root -p
+      ```
    - — and then
-   - — uninstall the plugin validate_password;
+   -  ```bash
+      uninstall the plugin validate_password;
+      ```
+      
 3. The third solution is You can set validate_password.policy to do so Just run:
    -  ```bash 
-      sudo mysql ```
+      sudo mysql 
+      ```
    -  — and Then:
    -  ```bash 
-       SET GLOBAL validate_password.policy=LOW; ```
+       SET GLOBAL validate_password.policy=LOW; 
+       ```
 
 <br />
 <hr />

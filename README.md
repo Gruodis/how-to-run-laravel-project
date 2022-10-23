@@ -188,11 +188,17 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <br />
 
 # IF Composer & MySQL installed
-- ## Step 1:  dependencies as specified in the composer.lock file
-  - composer install
-  - npm install
-  - patikriname ar atliktas SETUP .env, jeigu .env nėra, ieškome .enc.example ir pervadiname į .env, <br> 
-  - **.env SETUP EXAMPLE:**
+- ## Step 1:  
+  - Install dependencies as specified in the composer.lock file:
+  - ```bash 
+    composer install
+    ```
+  - ```bash 
+    npm install
+    ```
+
+- ## Step 2:
+  - Check if .env exists & fill in details required **.env SETUP EXAMPLE:**
   -  ```mysql
       DB_CONNECTION=mysql
       DB_HOST=localhost
@@ -201,11 +207,26 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       DB_USERNAME=root
       DB_PASSWORD=dbpassword
       ```
- - [ ] - php artisan migrate --seed
- - [ ] - php artisan optimise
+  - If .env doesn't exist, find .env.example & rename to .env. <br> 
+
+- ## Step 3:
+   - ```bash
+      php artisan migrate --seed
+     ```
+   - ```bash
+      php artisan optimize
+      ```
 
 # Start existing project:
 
+- ### Run in separate terminal windows:
+  - ```bash
+    php artisan serve
+    ```
+  - ```bash
+    npm run dev
+    ```
+> URL is found on ***"php artisan server"*** terminal: Server running on [ipnumber:port]
 <ol>
  <li>php artisan serve</li>
  <ol>

@@ -18,7 +18,7 @@
 <hr />
 <br />
 Linux essential cmd:
-```bash cd ~ ```  & ```bash cd ```: this command is used to change directory to the home directory .
+```bash cd ~```  & ```bash cd```: this command is used to change directory to the home directory .
 ```bash pwd ``` stands for Print Working Directory. It prints the path of the working directory, starting from the root.
 
 ## :computer: To Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps

@@ -145,9 +145,11 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
    - — and then
    - — uninstall the plugin validate_password;
 3. The third solution is You can set validate_password.policy to do so Just run:
-   -  ```bash sudo mysql ```
+   -  ```bash 
+      sudo mysql ```
    -  — and Then:
-   -  ```bash SET GLOBAL validate_password.policy=LOW; ```
+   -  ```bash 
+       SET GLOBAL validate_password.policy=LOW; ```
 
 <br />
 <hr />

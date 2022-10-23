@@ -112,10 +112,11 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
         ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
 
         ```
-## If you get this ERROR after step above
+
+### If you get this ERROR after step above
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
 
-### Posible solutions:
+#### Posible solutions:
 1. The first one is to Use a Strong Password Just Like Addy@789**$ This Password Will satisfy current policy requirements.
 2. The second one is Just Uninstall validate_password plugin with these two commands:
    - mysql -h localhost -u root -p
@@ -131,7 +132,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     - ```bash
       sudo mysql_secure_installation
       ```
-
+<hr />
 
 # IF Composer & MySQL installed
 - ## Step 1:  dependencies as specified in the composer.lock file

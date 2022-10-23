@@ -20,7 +20,7 @@
 ### Linux essential DIR nav cmd:
 
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 
-  -- ```bash
+  - ```bash
       cd ~
       cd
       ```

@@ -85,7 +85,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-## To Install MySQL [try this link(recommended)](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04) or [open setup link(quicq start - not recommended)](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
+## To Install MySQL [use this link](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)(recommended) or [quick start guide](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart)(NOT recommended) or follow these steps:
 - #### Step 1: Update/Upgrade Package Repository
     - ```bash
       sudo apt update
@@ -102,26 +102,31 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     - ```bash
       mysql --version
       ```
+      
+- #### Ensure that the server is running using the systemctl start command:
+    - ```bash
+      sudo systemctl start mysql.service
+      ```
+      
 <br />
 <hr />
 <br />
 
-## Set root psw for MySQL
+## Configuring MySQL
 - #### Step 1:
-   - change the authentication parameters to do so just run this command first.
+   - First, open up the MySQL prompt:
       - ```bash
         sudo mysql
         ```
 - #### Step 2:
-   - Then run This ALTER Query to change the authentication parameters.
+   - Then run the following ALTER USER command to change the root user’s authentication method to one that uses a password. The following example changes the authentication method to mysql_native_password:
       - ```bash
-        sudo mysql
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mynewpassword';
         ```
 - #### Step 3:
-   - Then run This ALTER Query to change the authentication parameters.
+   - After making this change, exit the MySQL prompt:
       - ```bash
-        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
-
+        exit
         ```
 
 #### If you get this ERROR after step above
@@ -142,11 +147,27 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-## FINAL Step: Securing MySQL
-- #### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info
-    - ```bash
-      sudo mysql_secure_installation
-      ```
+# MySQL Setup FINAL Step: Securing MySQL
+- #### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info or follow these guidlines:
+
+- #### Step 1:
+   - Following that, you can run the mysql_secure_installation script without issue:
+      - ```bash
+        sudo  mysql_secure_installation
+        ```
+
+- #### Step 2:
+   - Once the security script completes, you can then reopen MySQL and change the root user’s authentication method back to the default, auth_socket. To authenticate as the root MySQL user using a password, run this command:
+      - ```bash
+        mysql -u root -p
+        ```
+- #### Step 3:
+   - Then go back to using the default authentication method using this command:
+      - ```bash
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+        ```
+      - This will mean that you can once again connect to MySQL as your root user using the sudo mysql command.
+      - 
 <br />
 <hr />
 <br />

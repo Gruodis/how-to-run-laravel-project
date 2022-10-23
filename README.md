@@ -5,7 +5,9 @@
 
 <h1 align="center"> Composer & MySQL setup.</h1>
 
+<br />
 <hr />
+<br />
 
 ## To Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
 - ### Step 1 — Install Dependencies
@@ -78,42 +80,51 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
           --no-cache                 Prevent use of the cache
       -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
     ```
+    
+<br />
+<hr />
+<br />
+
 ## To Install MySQL [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
-- ### Step 1: Update/Upgrade Package Repository
+- #### Step 1: Update/Upgrade Package Repository
     - ```bash
       sudo apt update
       ```
     - ```bash
       sudo apt upgrade
       ```
-- ### Step 2: Install MySQL
+- #### Step 2: Install MySQL
     - ```bash
       sudo apt install mysql-server
       ```
 
-- ### Step 3: Check if MySQL was successfully installed by running:
+- #### Step 3: Check if MySQL was successfully installed by running:
     - ```bash
       mysql --version
       ```
+<br />
+<hr />
+<br />
+
 ## Set root psw for MySQL
-- ### Step 1:
+- #### Step 1:
    - change the authentication parameters to do so just run this command first.
       - ```bash
         sudo mysql
         ```
-- ### Step 2:
+- #### Step 2:
    - Then run This ALTER Query to change the authentication parameters.
       - ```bash
         sudo mysql
         ```
-- ### Step 3:
+- #### Step 3:
    - Then run This ALTER Query to change the authentication parameters.
       - ```bash
         ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
 
         ```
 
-### If you get this ERROR after step above
+#### If you get this ERROR after step above
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
 
 #### Posible solutions:
@@ -127,7 +138,11 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
    - and Then
    - SET GLOBAL validate_password.policy=LOW;
 
-### FINAL Step: Securing MySQL
+<br />
+<hr />
+<br />
+
+## FINAL Step: Securing MySQL
 - #### Yoy can follow this [video](https://www.youtube.com/watch?v=3qD6zv7thdE&t=157s&ab_channel=ITProTV) for detailed info
     - ```bash
       sudo mysql_secure_installation
@@ -162,7 +177,10 @@ DB_PASSWORD=dbpassword
  <li>npm run dev</li>
  <li>if project doesn't start properly, try: php artisan optimize</li>
 </ol>
- <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+
+<br />
+<hr />
+<br />
 
 - [ ] - https://linuxhint.com/restart-mysql-in-ubuntu/
 - [ ] - MySQL EXIT Secure install terminal - https://stackoverflow.com/questions/72248776/how-can-i-exit-from-mysql-secure-installation

@@ -227,6 +227,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     npm run dev
     ```
 > :earth_africa: URL is found on ***"php artisan server"*** terminal: Server running on [IP:port]
+> 
 > :bangbang: If project doesn't start properly, try: 
 ```bash
 php artisan optimize

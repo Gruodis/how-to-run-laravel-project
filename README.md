@@ -218,6 +218,13 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <br />
 
 ## :computer: IF Composer & MySQL installed
+
+#### BEFORE START
+- Install php curl
+  - ```bash
+    sudo apt-get install php-curl
+    ```
+
 - ## Step 1:  
   - Install dependencies as specified in the composer.lock file:
   - ```bash 
@@ -272,7 +279,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-## Other useful links:
+## :pill: Other useful links:
 
   - [Restart MySQL Server](https://linuxhint.com/restart-mysql-in-ubuntu/)
   - [MySQL EXIT Secure install terminal](https://stackoverflow.com/questions/72248776/how-can-i-exit-from-mysql-secure-installation)

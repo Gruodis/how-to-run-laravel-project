@@ -216,6 +216,9 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
    - ```bash
       php artisan optimize
       ```
+<br />
+<hr />
+<br />
 
 ## :computer: Start existing project:
 
@@ -226,12 +229,14 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
   - ```bash
     npm run dev
     ```
+>
 > :earth_africa: URL is found on ***"php artisan server"*** terminal: Server running on [IP:port]
+> 
 
 ## :bangbang: If project doesn't start properly, try: 
-```bash
-php artisan optimize
-```
+  - ```bash
+    php artisan optimize
+    ```
 
 <br />
 <hr />

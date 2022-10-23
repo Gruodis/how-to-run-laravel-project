@@ -250,6 +250,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <br />
 <hr />
 <br />
+
 ## Other useful links:
 
   - [Restart MySQL Server](https://linuxhint.com/restart-mysql-in-ubuntu/)

@@ -85,7 +85,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-## To Install MySQL [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
+## To Install MySQL [try this link(recommended)](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04) or [open setup link(quicq start - not recommended)](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps:
 - #### Step 1: Update/Upgrade Package Repository
     - ```bash
       sudo apt update

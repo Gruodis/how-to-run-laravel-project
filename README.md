@@ -132,9 +132,9 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     - ```bash
       sudo mysql_secure_installation
       ```
-
+<br />
 <hr />
-
+<br />
 
 # IF Composer & MySQL installed
 - ## Step 1:  dependencies as specified in the composer.lock file
@@ -152,7 +152,7 @@ DB_PASSWORD=dbpassword
  - [ ] - php artisan migrate --seed
  - [ ] - php artisan optimise
 
-## Start allready existing project
+# Start existing project:
 
 <ol>
  <li>php artisan serve</li>

@@ -85,7 +85,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-## To Install MySQL [use this link](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)(recommended) or [quick start guide](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart)(NOT recommended) or follow these steps:
+# To Install MySQL [use this link](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)(recommended) or [quick start guide](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart)(NOT recommended) or follow these steps:
 - #### Step 1: Update/Upgrade Package Repository
     - ```bash
       sudo apt update
@@ -112,22 +112,24 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 <hr />
 <br />
 
-## Configuring MySQL
-- #### Step 1:
-   - First, open up the MySQL prompt:
-      - ```bash
-        sudo mysql
-        ```
+# Configuring MySQL
+- ### Step 1:
+   - #### First, open up the MySQL prompt:
+    - ```bash
+      sudo mysql
+      ```
+      
 - #### Step 2:
-   - Then run the following ALTER USER command to change the root user’s authentication method to one that uses a password. The following example changes the authentication method to mysql_native_password:
-      - ```bash
-        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mynewpassword';
-        ```
+   - #### Then run the following ALTER USER command to change the root user’s authentication method to one that uses a password. The following example changes the authentication method to mysql_native_password:
+    - ```bash
+      ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mynewpassword';
+      ```
+      
 - #### Step 3:
-   - After making this change, exit the MySQL prompt:
-      - ```bash
-        exit
-        ```
+   - #### After making this change, exit the MySQL prompt:
+    - ```bash
+      exit
+      ```
 
 #### If you get this ERROR after step above
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements

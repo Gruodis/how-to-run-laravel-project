@@ -316,7 +316,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
    - ```bash
       npm run dev
       ```
-   - > :wrench: If after ```sudo php artisan key:generate``` You get "***The only supported ciphers are...***" Error, remove key from APP_KEY=key located in **.env** and then run:
+- ## > :wrench: If after ```sudo php artisan key:generate``` You get "***The only supported ciphers are...***" Error, remove key from APP_KEY=key located in **.env** and then run:
 
    - ```bash
       sudo php artisan key:generate

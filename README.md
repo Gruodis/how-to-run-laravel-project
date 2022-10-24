@@ -18,9 +18,11 @@
 <hr />
 <br />
 
-### Linux essential DIR nav cmd:
+### Essentials:
 
-
+  - ```mysql
+    mysql -u aurelijus -p
+    ```
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 
   - ```bash
     cd ~

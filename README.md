@@ -309,6 +309,20 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
    - ```bash
       php artisan optimize
       ```
+- ## Step 4:
+   - ```bash
+      php artisan serve
+     ```
+   - ```bash
+      npm run dev
+      ```
+   - > If after ```sudo php artisan key:generate``` You get ***The only supported ciphers are...***, remove key APP_KEY=key From .env and then run:
+
+   - ```bash
+      sudo php artisan key:generate
+      sudo php artisan config:cache
+      php artisan optimize
+      ```
 <br />
 <hr />
 <br />

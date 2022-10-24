@@ -230,60 +230,29 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
   - ```bash 
     composer install
     ```
+    
+  - IF You get dependencies Error
   - ```bash
-    aurelijus@pop-os:~/PhpstormProjects/am-spauda$ composer install
-    No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.
-    Loading composer repositories with package information
-    Your GitHub credentials are required to fetch private repository metadata (https://github.com/OneSoftIO/onesoft-lang.git)
-    When working with _public_ GitHub repositories only, head to https://github.com/settings/tokens/new?scopes=&description=Composer+on+pop-os+2022-10-23+2238 to retrieve a token.
-    This token will have read-only permission for public information only.
-    When you need to access _private_ GitHub repositories as well, go to https://github.com/settings/tokens/new?scopes=repo&description=Composer+on+pop-os+2022-10-23+2238
-    Note that such tokens have broad read/write permissions on your behalf, even if not needed by Composer.
-    Tokens will be stored in plain text in "/home/aurelijus/.config/composer/auth.json" for future use by Composer.
-    For additional information, check https://getcomposer.org/doc/articles/authentication-for-private-packages.md#github-oauth
-    Token (hidden): 
-    Token stored successfully.
-    Info from https://repo.packagist.org: #StandWithUkraine
     Updating dependencies
     Your requirements could not be resolved to an installable set of packages.
 
       Problem 1
         - tijsverkoyen/css-to-inline-styles 2.2.2 requires php ^5.5 || ^7.0 -> your php version (8.1.2) does not satisfy that requirement.
-        - tijsverkoyen/css-to-inline-styles[2.2.3, ..., 2.2.x-dev] require ext-dom * -> it is missing from your system. Install or enable PHP's dom extension.
-        - diglactic/laravel-breadcrumbs[v8.0.0, ..., v8.0.1] require laravel/framework ^6.0 || ^7.0 || ^8.0 || ^9.0 -> satisfiable by laravel/framework[v9.19.0, ..., 9.x-dev].
-        - laravel/framework[v9.34.0, ..., 9.x-dev] require tijsverkoyen/css-to-inline-styles ^2.2.5 -> satisfiable by tijsverkoyen/css-to-inline-styles[2.2.5, 2.2.x-dev].
-        - laravel/framework[v9.19.0, ..., v9.33.0] require tijsverkoyen/css-to-inline-styles ^2.2.2 -> satisfiable by tijsverkoyen/css-to-inline-styles[2.2.2, ..., 2.2.x-dev].
-        - Root composer.json requires diglactic/laravel-breadcrumbs ^8.0 -> satisfiable by diglactic/laravel-breadcrumbs[v8.0.0, v8.0.1].
-
-    To enable extensions, verify that they are enabled in your .ini files:
-        - /etc/php/8.1/cli/php.ini
-        - /etc/php/8.1/cli/conf.d/10-opcache.ini
-        - /etc/php/8.1/cli/conf.d/10-pdo.ini
-        - /etc/php/8.1/cli/conf.d/20-calendar.ini
-        - /etc/php/8.1/cli/conf.d/20-ctype.ini
-        - /etc/php/8.1/cli/conf.d/20-curl.ini
-        - /etc/php/8.1/cli/conf.d/20-exif.ini
-        - /etc/php/8.1/cli/conf.d/20-ffi.ini
-        - /etc/php/8.1/cli/conf.d/20-fileinfo.ini
-        - /etc/php/8.1/cli/conf.d/20-ftp.ini
-        - /etc/php/8.1/cli/conf.d/20-gettext.ini
-        - /etc/php/8.1/cli/conf.d/20-iconv.ini
-        - /etc/php/8.1/cli/conf.d/20-intl.ini
-        - /etc/php/8.1/cli/conf.d/20-mbstring.ini
-        - /etc/php/8.1/cli/conf.d/20-phar.ini
-        - /etc/php/8.1/cli/conf.d/20-posix.ini
-        - /etc/php/8.1/cli/conf.d/20-readline.ini
-        - /etc/php/8.1/cli/conf.d/20-shmop.ini
-        - /etc/php/8.1/cli/conf.d/20-sockets.ini
-        - /etc/php/8.1/cli/conf.d/20-sysvmsg.ini
-        - /etc/php/8.1/cli/conf.d/20-sysvsem.ini
-        - /etc/php/8.1/cli/conf.d/20-sysvshm.ini
-        - /etc/php/8.1/cli/conf.d/20-tokenizer.ini
-    You can also run `php --ini` in a terminal to see which files are used by PHP in CLI mode.
-    Alternatively, you can run Composer with `--ignore-platform-req=ext-dom` to temporarily ignore these required extensions.
+        - tijsverkoyen/css-to-inline-styles[2.2.3, ..., 2.2.x-dev] require ext-dom * -> it is missing from your system. Install or enable PHP's dom extension.....
     ```
+  - Try this:
     
-  - ```bash 
+  - ```bash
+    sudo apt install php-zip
+    ```
+    ```bash
+    sudo apt-get install php-mbstring
+    ```
+    ```bash
+    sudo apt install php-xml
+    ```
+  - Install NPM dependencies:
+  - ```bash
     npm install
     ```
 

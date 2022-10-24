@@ -20,9 +20,14 @@
 
 ### Essentials:
 
-  - ```mysql
-    mysql -u aurelijus -p
+- MySQL:
+
+  - Login as user(-u) root with password(-p):
+  - ```bash
+    mysql -u root -p
     ```
+    
+- DIR:
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 
   - ```bash
     cd ~

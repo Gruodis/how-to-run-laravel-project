@@ -22,11 +22,30 @@
 
 - MySQL:
 
-  - Login as user(-u) root with password(-p):
+  - Login to mysql as user(-u) root with password(-p):
   - ```bash
     mysql -u root -p
     ```
+  - to check MySQL version/status:
+  - ```bash
+    mysql --version
+    sudo service mysql status
+    ```
+  - to start/restart/stop:
+  - ```bash
+    sudo service mysql start
+    ```
+    ```bash
+    sudo service mysql restart
+    ```
+    ```bash
+    sudo service mysql stop
+    ```
     
+  - To exit >mysql:
+  - ```bash
+    sudo service mysql status
+    ```
 - DIR:
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 
   - ```bash

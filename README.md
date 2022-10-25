@@ -20,6 +20,8 @@
 
 ### Essentials:
 
+-  PHP: after 
+
 - MySQL:
 
   - Login to mysql as user(-u) root with password(-p):

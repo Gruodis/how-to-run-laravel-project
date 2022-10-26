@@ -61,7 +61,7 @@
     
   - To exit >mysql:
   - ```bash
-    sudo service mysql status
+    exit
     ```
 - DIR:
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 

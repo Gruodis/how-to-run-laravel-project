@@ -24,16 +24,16 @@
 
   - After project update
    - ```bash
-    php artisan migrate
-    ```
+      php artisan migrate
+      ```
    - ```bash
-    php artisan optimize:clear
-    ```
+      php artisan optimize:clear
+      ```
     
   - Extra
    - ```bash
-    php artisan vendor:publish
-    ```
+      php artisan vendor:publish
+      ```
 
     
 

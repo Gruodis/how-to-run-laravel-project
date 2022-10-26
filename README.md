@@ -43,12 +43,12 @@
   - ```bash
     mysql -u root -p
     ```
-  - to check MySQL version/status:
+  - To check MySQL version/status:
   - ```bash
     mysql --version
     sudo service mysql status
     ```
-  - to start/restart/stop:
+  - To start/restart/stop MySQL:
   - ```bash
     sudo service mysql start
     ```
@@ -59,7 +59,7 @@
     sudo service mysql stop
     ```
     
-- To exit >mysql:
+  - To exit >mysql:
   - ```bash
     sudo service mysql status
     ```

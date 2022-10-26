@@ -20,7 +20,21 @@
 
 ### Essentials:
 
--  PHP: after 
+-  PHP:
+  - After project update
+    ```bash
+    php artisan migrate
+    ```
+    ```bash
+    php artisan optimize:clear
+    ```
+    
+  - Extra
+    ```bash
+    php artisan vendor:publish
+    ```
+
+    
 
 - MySQL:
 

@@ -58,7 +58,7 @@
     sudo service mysql stop
     ```
     
-  - To exit >mysql:
+- To exit >mysql:
   - ```bash
     sudo service mysql status
     ```

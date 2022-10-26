@@ -23,15 +23,15 @@
 -  PHP:
 
   - After project update
-    ```bash
+   - ```bash
     php artisan migrate
     ```
-    ```bash
+   - ```bash
     php artisan optimize:clear
     ```
     
   - Extra
-    ```bash
+   - ```bash
     php artisan vendor:publish
     ```
 

@@ -21,6 +21,7 @@
 ### Essentials:
 
 -  PHP:
+
   - After project update
     ```bash
     php artisan migrate

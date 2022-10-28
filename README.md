@@ -327,14 +327,14 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     CREATE DATABASE IF NOT EXISTS tutorial_database;
     ```
 
-- ## Step 3:
+- ## Step 4:
    - ```bash
       php artisan migrate --seed
      ```
    - ```bash
       php artisan optimize
       ```
-- ## Step 4:
+- ## Step 5:
    - ```bash
       php artisan serve
      ```

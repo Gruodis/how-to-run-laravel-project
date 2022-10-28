@@ -269,12 +269,12 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     ```
 
 - ## Step 1:  
-  - Install dependencies as specified in the composer.lock file:
+  - Install dependencies as specified in the **composer.lock** file:
   - ```bash 
     composer install
     ```
     
-  - IF You get dependencies Error
+  - **:interrobang:** IF You get dependencies Error like in example below:
   - ```bash
     Updating dependencies
     Your requirements could not be resolved to an installable set of packages.
@@ -300,7 +300,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     ```
 
 - ## Step 2:
-  - Check if .env exists & fill in details required **.env SETUP EXAMPLE:**
+  - Check if **.env** exists & fill in details required **.env** SETUP EXAMPLE:
   -  ```mysql
       DB_CONNECTION=mysql
       DB_HOST=localhost

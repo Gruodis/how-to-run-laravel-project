@@ -305,10 +305,23 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       DB_CONNECTION=mysql
       DB_HOST=localhost
       DB_PORT=3306
-      DB_DATABASE=amspauda
+      DB_DATABASE=db_name
       DB_USERNAME=root
       DB_PASSWORD=dbpassword
       ```
+  - ***IMPORTANT!*** Create database with same name from example **"db_name"**. You can use DBeaver or commmand line:
+  ```bash
+  mysql -u root -p
+  ```
+  - After You enter credentials output should look like this:
+  ```bash
+  mysql>
+  ```
+  - Now we can create new database _(only creates the database **db_name** if a database of that name does not already exist)_ :
+  ```bash
+  CREATE DATABASE IF NOT EXISTS tutorial_database;
+  ```
+
 - ## :interrobang: If .env doesn't exist, find .env.example & rename to .env. 
   - ```bash
     cp .env.example .env

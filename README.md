@@ -262,8 +262,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 
 ## :computer: IF Composer & MySQL installed
 
-#### BEFORE START
-- Install php curl
+- ## First of All
+  - Install php curl
   - ```bash
     sudo apt-get install php-curl
     ```
@@ -314,18 +314,18 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
         cp .env.example .env
         ```
 - ## Step 3 :bangbang: IMPORTANT! 
-  - Create database with same name from example **"db_name"**. You can use **DBeaver** or commmand line:
-    ```bash
-    mysql -u root -p
-    ```
-  - After You enter credentials output should look like this:
-    ```bash
-    mysql>
-    ```
-  - Now we can create new database _(this command only creates the database **db_name** if a database of that name does not already exist)_ :
-    ```bash
-    CREATE DATABASE IF NOT EXISTS tutorial_database;
-    ```
+  - Create database with same name as in **.env** file - **"db_name"**. For that You can use **DBeaver** or commmand line:
+      ```bash
+      mysql -u root -p
+      ```
+      After You enter credentials output should look like this:
+      ```bash
+      mysql>
+      ```
+      Now we can create new database _(this command only creates the database **db_name** if a database of that name does not already exist)_ :
+      ```bash
+      CREATE DATABASE IF NOT EXISTS tutorial_database;
+      ```
 
 - ## Step 4:
    - ```bash

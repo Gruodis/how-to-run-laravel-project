@@ -204,9 +204,9 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       
 - ### Step 3:
    - After making this change, exit the MySQL prompt:
-    - ```bash
-      exit
-      ```
+     ```bash
+     exit
+     ```
 
 #### :bangbang: If you get this ERROR after step above
 > ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
@@ -214,7 +214,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 #### Posible solutions:
 1. The first one is to Use a Strong Password Just Like Addy@789**$ This Password Will satisfy current policy requirements.
 2. The second one is Just Uninstall validate_password plugin with these two commands:
-   -  ```bash
+   - first:
+     ```bash
       mysql -h localhost -u root -p
       ```
    - and then:
@@ -252,10 +253,10 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
      ```
 - ### Step 3:
    - Then go back to using the default authentication method using this command:
-    - ```bash
-      ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
-      ```
-    - This will mean that you can once again connect to MySQL as your root user using the sudo mysql command.
+     ```bash
+     ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+     ```
+   - This will mean that you can once again connect to MySQL as your root user using the sudo mysql command.
 
 <br />
 <hr />
@@ -265,18 +266,18 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 
 - ## First of All
   - Install php curl
-  - ```bash
+    ```bash
     sudo apt-get install php-curl
     ```
 
 - ## Step 1:  
   - Install dependencies as specified in the **composer.lock** file:
-  - ```bash 
+    ```bash 
     composer install
     ```
     
   - **:interrobang:** IF You get dependencies Error like in example below:
-  - ```bash
+    ```bash
     Updating dependencies
     Your requirements could not be resolved to an installable set of packages.
 
@@ -286,7 +287,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     ```
   - Try this:
     
-  - ```bash
+    ```bash
     sudo apt install php-zip
     ```
     ```bash
@@ -296,13 +297,13 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     sudo apt install php-xml
     ```
   - Install NPM dependencies:
-  - ```bash
+    ```bash
     npm install
     ```
 
 - ## Step 2:
   - Check if **.env** exists & fill in details required **.env** SETUP EXAMPLE:
-  -  ```mysql
+    ```mysql
       DB_CONNECTION=mysql
       DB_HOST=localhost
       DB_PORT=3306
@@ -310,10 +311,10 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       DB_USERNAME=root
       DB_PASSWORD=dbpassword
       ```
-      - ***:interrobang:*** If **.env** doesn't exist, find **.env.example** & rename to **.env**. 
-      - ```bash
-        cp .env.example .env
-        ```
+  - ***:interrobang:*** If **.env** doesn't exist, find **.env.example** & rename to **.env**. 
+    ```bash
+    cp .env.example .env
+    ```
 - ## Step 3 :bangbang: IMPORTANT! 
   - Create database with same name as in **.env** file - **"db_name"**. For that You can use **DBeaver** or commmand line:
       ```bash

@@ -218,9 +218,9 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       mysql -h localhost -u root -p
       ```
    - and then:
-   -  ```bash
-      uninstall the plugin validate_password;
-      ```
+   ```bash
+   uninstall the plugin validate_password;
+   ```
       
 3. The third solution is You can set validate_password.policy to do so Just run:
    -  ```bash 

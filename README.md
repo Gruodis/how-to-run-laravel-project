@@ -313,7 +313,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       - ```bash
         cp .env.example .env
         ```
-- ## ***IMPORTANT!*** ## Create database with same name from example **"db_name"**. You can use DBeaver or commmand line:
+  - ### :bangbang: IMPORTANT! 
+    Create database with same name from example **"db_name"**. You can use DBeaver or commmand line:
     ```bash
     mysql -u root -p
     ```

@@ -313,8 +313,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       - ```bash
         cp .env.example .env
         ```
-  - ### :bangbang: IMPORTANT! 
-    Create database with same name from example **"db_name"**. You can use DBeaver or commmand line:
+- ## Step 3 :bangbang: IMPORTANT! 
+  - Create database with same name from example **"db_name"**. You can use **DBeaver** or commmand line:
     ```bash
     mysql -u root -p
     ```
@@ -322,7 +322,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     ```bash
     mysql>
     ```
-  - Now we can create new database _(only creates the database **db_name** if a database of that name does not already exist)_ :
+  - Now we can create new database _(this command only creates the database **db_name** if a database of that name does not already exist)_ :
     ```bash
     CREATE DATABASE IF NOT EXISTS tutorial_database;
     ```

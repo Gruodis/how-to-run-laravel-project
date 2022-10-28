@@ -310,17 +310,17 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       DB_PASSWORD=dbpassword
       ```
   - ***IMPORTANT!*** Create database with same name from example **"db_name"**. You can use DBeaver or commmand line:
-  ```bash
-  mysql -u root -p
-  ```
+    ```bash
+    mysql -u root -p
+    ```
   - After You enter credentials output should look like this:
-  ```bash
-  mysql>
-  ```
+    ```bash
+    mysql>
+    ```
   - Now we can create new database _(only creates the database **db_name** if a database of that name does not already exist)_ :
-  ```bash
-  CREATE DATABASE IF NOT EXISTS tutorial_database;
-  ```
+    ```bash
+    CREATE DATABASE IF NOT EXISTS tutorial_database;
+    ```
 
 - ## :interrobang: If .env doesn't exist, find .env.example & rename to .env. 
   - ```bash
@@ -345,8 +345,8 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
 - after ```sudo php artisan key:generate``` remove key from APP_KEY=key located in **.env** and then run:
 
    - ```bash
-      sudo php artisan key:generate
       sudo php artisan config:cache
+      sudo php artisan key:generate
       php artisan optimize
       ```
 <br />

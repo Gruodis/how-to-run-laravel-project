@@ -327,7 +327,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
       ```
       Now we can create new database _(this command only creates the database **db_name** if a database of that name does not already exist)_ :
       ```bash
-      CREATE DATABASE IF NOT EXISTS tutorial_database;
+      CREATE DATABASE IF NOT EXISTS db_name;
       ```
 
 - ## Step 4:

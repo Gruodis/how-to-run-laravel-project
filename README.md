@@ -91,6 +91,7 @@
 <hr />
     
 - ### Step 2: Download and Install Composer
+  - For ***Windows OS*** just navigate to the official [composer website](https://getcomposer.org/download/).
   - Make sure you’re in your home directory, then retrieve the Composer installer using curl:
   - ```bash
     cd ~

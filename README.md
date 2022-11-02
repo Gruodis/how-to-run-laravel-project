@@ -286,7 +286,7 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
         - tijsverkoyen/css-to-inline-styles 2.2.2 requires php ^5.5 || ^7.0 -> your php version (8.1.2) does not satisfy that requirement.
         - tijsverkoyen/css-to-inline-styles[2.2.3, ..., 2.2.x-dev] require ext-dom * -> it is missing from your system. Install or enable PHP's dom extension.....
     ```
-  - Try this:
+    Try this:
     
     ```bash
     sudo apt install php-zip

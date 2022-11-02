@@ -93,31 +93,31 @@
 - ### Step 2: Download and Install Composer
   - For ***Windows OS*** just navigate to the official [composer website](https://getcomposer.org/download/).
   - Make sure you’re in your home directory, then retrieve the Composer installer using curl:
-  - ```bash
+    ```bash
     cd ~
     curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
     ```
-  -  — Using curl, fetch the latest signature and store it in a shell variable:
-  - ```bash
+  - Using curl, fetch the latest signature and store it in a shell variable:
+    ```bash
     HASH=`curl -sS https://composer.github.io/installer.sig`
     ```
   - Now execute the following PHP code to verify that the installation script is safe to run:
-  - ```bash
+    ```bash
     php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
     ```
   - You’ll see the following output:
-  - ```bash
+    ```bash
     Installer verified
     ```
   - > **Note:**
 _If the output says Installer corrupt, you’ll need to repeat the download and verification process until you have a verified installer._
 
   - The following command will download and install Composer as a system-wide command named **composer**, under **/usr/local/bin**:
-  - ```bash
+    ```bash
     sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
     ```
   - You’ll see output similar to this:
-  - ```bash
+    ```bash
     Output
     All settings correct for using Composer
     Downloading...

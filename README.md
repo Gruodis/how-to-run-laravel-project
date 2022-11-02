@@ -180,10 +180,15 @@ _If the output says Installer corrupt, you’ll need to repeat the download and 
     - ```bash
       mysql --version
       ```
-      
-- #### Ensure that the server is running using the systemctl start command:
+
+- #### To start MySQL now:
     - ```bash
-      sudo systemctl start mysql.service
+      sudo systemctl enable --now mysql.service
+      ```
+
+- #### To check is MySQL is running: 
+    - ```bash
+      systemctl status mysql.service
       ```
       
 <br />

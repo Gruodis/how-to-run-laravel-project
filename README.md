@@ -20,28 +20,30 @@
 
 ### Essentials:
 
--  After local project files update(exmpl: git pull upstream master):
+- PHP
 
-  ```bash
-  composer update
-  ```
-  ```bash
-  php artisan optimize:clear
-  ```
-
-- After project Database update:
+  -  After local project files update(exmpl: git pull upstream master):
 
     ```bash
-    php artisan migrate
+    composer update
     ```
     ```bash
     php artisan optimize:clear
     ```
 
-- Extra - to export vendors lib
-    ```bash
-    php artisan vendor:publish
-    ```
+  - After project Database update:
+
+      ```bash
+      php artisan migrate
+      ```
+      ```bash
+      php artisan optimize:clear
+      ```
+
+  - Extra - to export vendors lib
+      ```bash
+      php artisan vendor:publish
+      ```
 
     
 

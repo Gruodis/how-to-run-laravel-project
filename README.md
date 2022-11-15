@@ -20,20 +20,27 @@
 
 ### Essentials:
 
--  PHP:
+-  After project files update **_ALLWAYS_**:
 
-    - After project update
-     - ```bash
-        php artisan migrate
-        ```
-     - ```bash
-        php artisan optimize:clear
-        ```
+  ```bash
+  composer update
+  ```
+  ```bash
+  
 
-    - Extra
-     - ```bash
-        php artisan vendor:publish
-        ```
+- After project Database update
+
+    ```bash
+    php artisan migrate
+    ```
+    ```bash
+    php artisan optimize:clear
+    ```
+
+- Extra
+    ```bash
+    php artisan vendor:publish
+    ```
 
     
 

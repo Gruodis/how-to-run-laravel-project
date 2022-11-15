@@ -20,15 +20,16 @@
 
 ### Essentials:
 
--  After project files update **_ALLWAYS_**:
+-  After local project files update(exmpl: git pull upstream master):
 
   ```bash
   composer update
   ```
   ```bash
-  
+  php artisan optimize:clear
+  ```
 
-- After project Database update
+- After project Database update:
 
     ```bash
     php artisan migrate
@@ -37,7 +38,7 @@
     php artisan optimize:clear
     ```
 
-- Extra
+- Extra - to export vendors lib
     ```bash
     php artisan vendor:publish
     ```

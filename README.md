@@ -1,6 +1,6 @@
-<p align="center"><img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://laravel.com/img/logomark.min.svg"></p>
+<p align="center"><img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://ngrok.com/static/img/ngrok-white.svg"></p>
 <h3 align="center">
-# Runing Laravel Project
+Expose localhost to internet with ngrok
 </h3>
 
 <h1 align="center"> Composer & MySQL setup.</h1>

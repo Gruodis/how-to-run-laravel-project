@@ -48,6 +48,7 @@
     
 
 - MySQL:
+  if Yoy decide to use DBeaver, **ONLY USE** [Community version](https://dbeaver.io/download/)
 
   - Login to mysql as user(-u) root with password(-p):
   - ```bash

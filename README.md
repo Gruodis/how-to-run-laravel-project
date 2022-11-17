@@ -19,6 +19,12 @@
 <br />
 
 ### Essentials:
+#### if Yoy decide to use DBeaver for MySQL, **ONLY USE** [Community version](https://dbeaver.io/download/)
+
+<p align="center"><img alt="DBeaver." src="https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png"></p>
+  - Local Client info
+    - **ID/PATH/NAME:** ``/run/user/1000/doc/22d5bb09/bin``
+    - **Product Name:** MySQL/MariaDB
 
 - PHP
 
@@ -48,7 +54,6 @@
     
 
 - MySQL:
-  if Yoy decide to use DBeaver, **ONLY USE** [Community version](https://dbeaver.io/download/)
 
   - Login to mysql as user(-u) root with password(-p):
   - ```bash

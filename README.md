@@ -23,7 +23,7 @@
 <p align="center"><img alt="DBeaver." src="https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png"></p>
 <p align="center">
   #### if Yoy decide to use DBeaver for MySQL, **ONLY USE**
-  [Community version](https://dbeaver.io/download/)
+  <a href="https://dbeaver.io/download">[Community version]</a>
 </p>
 
   - Local Client info

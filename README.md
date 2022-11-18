@@ -20,16 +20,18 @@
 
 ### Essentials:
 
-<p align="center"><img alt="DBeaver." src="https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png"></p>
+<p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg"></p>
 <p align="center">
   if Yoy decide to use DBeaver for MySQL, <b>ONLY USE</b>
   <a href="https://dbeaver.io/download"  target=”_blank”>[Community version]</a>
 </p>
 
-  - Local Client info
+  - DBeaver Local Client info
     - **ID/PATH/NAME:** ``/run/user/1000/doc/22d5bb09/bin``
     - **Product Name:** MySQL/MariaDB
 
+
+<p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 - PHP
 
   -  After local project files update(exmpl: git pull upstream master):
@@ -56,7 +58,7 @@
       ```
 
     
-
+<p align="center"><img alt="DBeaver." src="https://fr.wikipedia.org/wiki/MySQL#/media/Fichier:MySQL.svg"></p>
 - MySQL:
 
   - Login to mysql as user(-u) root with password(-p):

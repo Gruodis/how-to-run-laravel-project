@@ -20,7 +20,7 @@
 
 ### Essentials:
 
-<p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg"></p>
+<p align="center"><img alt="DBeaver." width="150" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg"></p>
 <p align="center">
   if Yoy decide to use DBeaver for MySQL, <b>ONLY USE</b>
   <a href="https://dbeaver.io/download"  target=”_blank”>[Community version]</a>

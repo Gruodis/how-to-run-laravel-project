@@ -31,7 +31,7 @@
     - **Product Name:** MySQL/MariaDB
 
 
-<p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
+<p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 - PHP
 
   -  After local project files update(exmpl: git pull upstream master):
@@ -58,7 +58,7 @@
       ```
 
     
-<p align="center"><img alt="DBeaver." src="https://fr.wikipedia.org/wiki/MySQL#/media/Fichier:MySQL.svg"></p>
+<p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png"></p>
 - MySQL:
 
   - Login to mysql as user(-u) root with password(-p):

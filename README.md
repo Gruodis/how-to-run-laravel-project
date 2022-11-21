@@ -32,9 +32,9 @@
 
 
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
-- PHP
+- **PHP**
 
-  -  After local project files update(exmpl: git pull upstream master):
+  -  After local project files update(``git pull upstream master``):
 
     ```bash
     composer update
@@ -56,10 +56,64 @@
       ```bash
       php artisan vendor:publish
       ```
+- **Change PHP version**:
 
+  - Step 1: System Update
+  ```bash
+  sudo apt-get update
+
+  ```
+  ```bash
+  sudo apt-get upgrade
+  ```
+  
+  - Step 2: Installing Multiple PHP Versions on Ubuntu 22.04
+  ```bash
+  sudo apt install software-properties-common
+  ```
+  ```bash
+  sudo add-apt-repository ppa:ondrej/php
+  ```
+  ```bash
+  sudo apt update
+  ```
+  - **Install PHP v7.4**
+  ```bash
+  sudo apt-get install php7.4 php7.4-fpm
+  ```
+  - And install some common PHP7.4 extensions:
+  ```bash
+  sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
+  ```
+  - Step 3: Check Active PHP Version:
+  ```bash
+  php -v
+  ```
+  - Step 4: Switch Default PHP Version for CLI
+  ```bash
+  sudo update-alternatives --config php
+  ```
+  To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.<br />
+  
+  - **You can execute the command below to change the version straight away:**
+  ```bash
+  sudo update-alternatives --set php /usr/bin/php7.4
+  ```
+  
+  - Step 5: Uninstalling PHP Versions:
+  ```bash
+  sudo apt-get remove php5.6
+  ```
+  Also, uninstall all the modules for that version, Run the following command:
+  ```bash
+  sudo apt-get remove php5.6-*
+  ```
+  
+
+  
     
 <p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png"></p>
-- MySQL:
+- **MySQL**:
 
   - Login to mysql as user(-u) root with password(-p):
   - ```bash

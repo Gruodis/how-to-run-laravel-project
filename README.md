@@ -165,21 +165,28 @@
     sudo service mysql stop
     ```
     
+    <br />
+    <br />
+    
   - DELETE Database
     ```mysql
        mysql> DROP DATABASE my_dabase;
     ```
+    <br />
+      
   - CREATE Database
     ```mysql
        mysql> CREATE DATABASE my_dabase;
     ```
+    <br />
+    <br />
   - RESTORE/IMOPRT .sql
     _Database must be created and **EMPTY**, then run_:
     ```mysql
        mysql> USE my_dabase;
     ```
     ```mysql
-       SOURCE /home/user/Downloads/my_database.sql;
+       mysql> SOURCE /home/user/Downloads/my_database.sql;
     ```
     
   - To exit >mysql:

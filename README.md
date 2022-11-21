@@ -142,6 +142,7 @@
   
     
 <p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png"></p>
+
 - **MySQL**:
 
   - Login to mysql as user(-u) root with password(-p):
@@ -167,6 +168,18 @@
   - DELETE Database
     ```mysql
        mysql> DROP DATABASE my_dabase;
+    ```
+  - CREATE Database
+    ```mysql
+       mysql> CREATE DATABASE my_dabase;
+    ```
+  - RESTORE/IMOPRT .sql
+    _Database must be created and **EMPTY**, then run_:
+    ```mysql
+       mysql> USE my_dabase;
+    ```
+    ```mysql
+       SOURCE /home/user/Downloads/my_database.sql;
     ```
     
   - To exit >mysql:

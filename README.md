@@ -32,7 +32,8 @@
 
 
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
-- **PHP**
+
+- <b>PHP</b>
 
   -  After local project files update(``git pull upstream master``):
 

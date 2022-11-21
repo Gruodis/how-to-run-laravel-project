@@ -164,6 +164,11 @@
     sudo service mysql stop
     ```
     
+  - DELETE Database
+    ```mysql
+       mysql> DROP DATABASE my_dabase;
+    ```
+    
   - To exit >mysql:
   - ```bash
     exit

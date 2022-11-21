@@ -68,7 +68,11 @@
   sudo apt-get upgrade
   ```
   
-  - Step 2: Installing Multiple PHP Versions on Ubuntu 22.04
+  <br />
+  <hr />
+  <br />
+  
+  - **Step 2**: Installing Multiple PHP Versions on Ubuntu 22.04
   ```bash
   sudo apt install software-properties-common
   ```
@@ -78,6 +82,11 @@
   ```bash
   sudo apt update
   ```
+    
+  <br />
+  <hr />
+  <br />
+  
   - **Install PHP v7.4**
   ```bash
   sudo apt-get install php7.4 php7.4-fpm
@@ -86,26 +95,45 @@
   ```bash
   sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
   ```
-  - Step 3: Check Active PHP Version:
+    
+  <br />
+  <hr />
+  <br />
+  
+  - **Step 3**: Check Active PHP Version:
   ```bash
   php -v
   ```
-  - Step 4: Switch Default PHP Version for CLI
+    
+  <br />
+  <hr />
+  <br />
+  
+  - **Step 4**: Switch Default PHP Version for CLI
   ```bash
   sudo update-alternatives --config php
   ```
-  To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.<br />
+  To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
+    
+  <br />
+  <hr />
+  <br />
+  
   
   - **You can execute the command below to change the version straight away:**
   ```bash
   sudo update-alternatives --set php /usr/bin/php7.4
   ```
+    
+  <br />
+  <hr />
+  <br />
   
-  - Step 5: Uninstalling PHP Versions:
+  - **Step 5**: Uninstalling PHP Versions:
   ```bash
   sudo apt-get remove php5.6
   ```
-  Also, uninstall all the modules for that version, Run the following command:
+  Also, uninstall all the modules for that version, **Run the following command**:
   ```bash
   sudo apt-get remove php5.6-*
   ```

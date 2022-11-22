@@ -46,34 +46,33 @@
   -  After local project files update(``git pull upstream master``):
 
     ```bash
-    composer update
+       composer update
     ```
     ```bash
-    php artisan optimize:clear
+       php artisan optimize:clear
     ```
 
   - After project Database update:
 
       ```bash
-      php artisan migrate
+         php artisan migrate
       ```
       ```bash
-      php artisan optimize:clear
+         php artisan optimize:clear
       ```
 
   - Extra - to export vendors lib
       ```bash
-      php artisan vendor:publish
+         php artisan vendor:publish
       ```
 - **Change PHP version**:
 
   - **Step 1**: System Update
   ```bash
-  sudo apt-get update
-
+     sudo apt-get update
   ```
   ```bash
-  sudo apt-get upgrade
+     sudo apt-get upgrade
   ```
   
   <br />
@@ -82,13 +81,13 @@
   
   - **Step 2**: Installing Multiple PHP Versions on Ubuntu 22.04
   ```bash
-  sudo apt install software-properties-common
+     sudo apt install software-properties-common
   ```
   ```bash
-  sudo add-apt-repository ppa:ondrej/php
+     sudo add-apt-repository ppa:ondrej/php
   ```
   ```bash
-  sudo apt update
+     sudo apt update
   ```
     
   <br />
@@ -97,11 +96,11 @@
   
   - **Install PHP v7.4**
   ```bash
-  sudo apt-get install php7.4 php7.4-fpm
+     sudo apt-get install php7.4 php7.4-fpm
   ```
   - And install some common PHP7.4 extensions:
   ```bash
-  sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
+     sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
   ```
     
   <br />
@@ -110,7 +109,7 @@
   
   - **Step 3**: Check Active PHP Version:
   ```bash
-  php -v
+     php -v
   ```
     
   <br />
@@ -119,7 +118,7 @@
   
   - **Step 4**: Switch Default PHP Version for CLI
   ```bash
-  sudo update-alternatives --config php
+     sudo update-alternatives --config php
   ```
   To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
     
@@ -130,7 +129,7 @@
   
   - **You can execute the command below to change the version straight away:**
   ```bash
-  sudo update-alternatives --set php /usr/bin/php7.4
+     sudo update-alternatives --set php /usr/bin/php7.4
   ```
     
   <br />
@@ -139,11 +138,11 @@
   
   - **Step 5**: Uninstalling PHP Versions:
   ```bash
-  sudo apt-get remove php5.6
+     sudo apt-get remove php5.6
   ```
   Also, uninstall all the modules for that version, **Run the following command**:
   ```bash
-  sudo apt-get remove php5.6-*
+     sudo apt-get remove php5.6-*
   ```
   
 <br />

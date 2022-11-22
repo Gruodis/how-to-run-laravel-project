@@ -33,7 +33,13 @@
 
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 
-- <b>PHP</b>
+- #### PHP
+  
+  - DISPLAY IMAGES with proper url:
+
+    ```bash
+       php artisan storage:link
+    ```   
 
   -  After local project files update(``git pull upstream master``):
 

@@ -39,9 +39,9 @@
   
   - DISPLAY IMAGES with proper url:
 
-    ```bash
-       php artisan storage:link
-    ```   
+      ```bash
+      php artisan storage:link
+      ```   
 
   -  After local project files update(``git pull upstream master``):
 

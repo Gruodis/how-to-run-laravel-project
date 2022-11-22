@@ -14,9 +14,11 @@
   - [Start Project](#computer-start-existing-project)
   - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
 
+<br />
+<br />
+<br />
 
-
-## Essentials:
+# Essentials:
 
 <p align="center"><img alt="DBeaver." width="150" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg"></p>
 <p align="center">

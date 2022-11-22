@@ -30,7 +30,9 @@
     - **ID/PATH/NAME:** ``/run/user/1000/doc/22d5bb09/bin``
     - **Product Name:** MySQL/MariaDB
 
-
+<br />
+<hr />
+<br />
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 
 - #### PHP
@@ -144,7 +146,9 @@
   sudo apt-get remove php5.6-*
   ```
   
-
+<br />
+<hr />
+<br />
   
     
 <p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png"></p>

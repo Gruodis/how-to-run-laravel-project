@@ -246,7 +246,7 @@
 <br>
 <br>
 
-![Main](https://upload.wikimedia.org/wikipedia/commons/5/51/Windows_Terminal_logo.svg)
+<p align="center"><img alt="DBeaver." width="150" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Windows_Terminal_logo.svg"></p>
     
 # DIR:
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 

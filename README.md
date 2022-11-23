@@ -124,7 +124,7 @@
     ```bash
     sudo update-alternatives --config php
     ```
-  To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
+    > To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
     
   <br>
   <br>

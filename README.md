@@ -242,7 +242,13 @@
   - ```bash
     exit
     ```
-- DIR:
+    
+<br>
+<br>
+
+![Main](https://upload.wikimedia.org/wikipedia/commons/5/51/Windows_Terminal_logo.svg)
+    
+# DIR:
   - ```cd ~```  & ```cd```  is used to change directory to the home directory. 
   - ```bash
     cd ~

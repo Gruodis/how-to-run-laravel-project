@@ -72,7 +72,7 @@
   
 - **Change PHP version**:
 
-  ### **Step 1**: <span>System Update</span>
+  ### **Step 1**: <span style="font-weight: normal;">System Update</span>
   ```bash
      sudo apt-get update
   ```

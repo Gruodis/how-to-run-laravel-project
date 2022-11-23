@@ -41,7 +41,7 @@
 
 - #### PHP
   
-  - DISPLAY IMAGES with proper url:
+  - **DISPLAY IMAGES** with proper url:
 
       ```bash
       php artisan storage:link
@@ -83,9 +83,8 @@
     sudo apt-get upgrade
     ```
   
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
   - **Step 2**: Installing Multiple PHP Versions on Ubuntu 22.04
     ```bash
@@ -98,59 +97,54 @@
     sudo apt update
     ```
     
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
   - **Install PHP v7.4**
-  ```bash
-     sudo apt-get install php7.4 php7.4-fpm
-  ```
+    ```bash
+    sudo apt-get install php7.4 php7.4-fpm
+    ```
   - And install some common PHP7.4 extensions:
-  ```bash
-     sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
-  ```
+    ```bash
+    sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
+    ```
     
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
   - **Step 3**: Check Active PHP Version:
-  ```bash
-     php -v
-  ```
+    ```bash
+    php -v
+    ```
     
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
   - **Step 4**: Switch Default PHP Version for CLI
-  ```bash
-     sudo update-alternatives --config php
-  ```
+    ```bash
+    sudo update-alternatives --config php
+    ```
   To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
     
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
   
   - **You can execute the command below to change the version straight away:**
-  ```bash
-     sudo update-alternatives --set php /usr/bin/php7.4
-  ```
+    ```bash
+    sudo update-alternatives --set php /usr/bin/php7.4
+    ```
     
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
   - **Step 5**: Uninstalling PHP Versions:
-  ```bash
-     sudo apt-get remove php5.6
-  ```
+    ```bash
+    sudo apt-get remove php5.6
+    ```
   Also, uninstall all the modules for that version, **Run the following command**:
   ```bash
-     sudo apt-get remove php5.6-*
+  sudo apt-get remove php5.6-*
   ```
 ## :bangbang: After PHP version change can't update OS propperly: PHP 8.1 Error _( unmet dependencies )_ FIX
 

@@ -71,7 +71,6 @@
       ```
       
   <br>
-  <br>
   
 ## **Change PHP version**:
 
@@ -83,7 +82,6 @@
     sudo apt-get upgrade
     ```
   
-  <br>
   <br>
   
   - **Step 2**: Installing Multiple PHP Versions on Ubuntu 22.04
@@ -98,7 +96,6 @@
     ```
     
   <br>
-  <br>
   
 ## **Install PHP v7.4**
     ```bash
@@ -109,7 +106,6 @@
     sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
     ```
     
-  <br>
   <br>
   
   - **Step 3**: Check Active PHP Version:
@@ -134,8 +130,6 @@
     ```bash
     sudo update-alternatives --set php /usr/bin/php7.4
     ```
-    
-  <br>
   <br>
   
   - **Step 5**: Uninstalling PHP Versions:
@@ -146,7 +140,9 @@
   ```bash
   sudo apt-get remove php5.6-*
   ```
-## :bangbang: After PHP version change can't update OS propperly: PHP 8.1 Error _( unmet dependencies )_ FIX
+  ## :bangbang: 
+  
+  After PHP version change can't update OS propperly: PHP 8.1 Error _( unmet dependencies )_ FIX
 
   ```bash
   The following packages have unmet dependencies:

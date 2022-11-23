@@ -136,11 +136,13 @@
     ```bash
     sudo apt autoremove --purge php7.4
     ```
+    
 > To remove PPA, **Run the following command**:
 
     ```bash
     sudo add-apt-repository --remove ppa:ondrej/php -y
     ```
+    
 <br> 
    
   ## :bangbang: FIX Errors

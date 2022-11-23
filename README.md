@@ -14,9 +14,11 @@
   - [Start Project](#computer-start-existing-project)
   - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
 
-<br />
-<br />
-<br />
+<br>
+
+***
+
+<br>
 
 # Essentials:
 
@@ -30,11 +32,11 @@
     - **ID/PATH/NAME:** ``/run/user/1000/doc/22d5bb09/bin``
     - **Product Name:** MySQL/MariaDB
 
-<br />
+<br>
 
 ---
 
-<br />
+<br>
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 
 - #### PHP
@@ -48,54 +50,53 @@
   -  After local project files update(``git pull upstream master``):
 
     ```bash
-       composer update
+    composer update
     ```
     ```bash
-       php artisan optimize:clear
+    php artisan optimize:clear
     ```
 
   - After project Database update:
 
       ```bash
-         php artisan migrate
+      php artisan migrate
       ```
       ```bash
-         php artisan optimize:clear
+      php artisan optimize:clear
       ```
 
   - Extra - to export vendors lib
       ```bash
-         php artisan vendor:publish
+      php artisan vendor:publish
       ```
       
-  <br />
-  <hr />
-  <br />
+  <br>
+  <br>
   
-- **Change PHP version**:
+- ## **Change PHP version**:
 
   - ### **Step 1**: <small>System Update</small>
-  ```bash
-     sudo apt-get update
-  ```
-  ```bash
-     sudo apt-get upgrade
-  ```
+    ```bash
+    sudo apt-get update
+    ```
+    ```bash
+    sudo apt-get upgrade
+    ```
   
   <br />
   <hr />
   <br />
   
   - **Step 2**: Installing Multiple PHP Versions on Ubuntu 22.04
-  ```bash
-     sudo apt install software-properties-common
-  ```
-  ```bash
-     sudo add-apt-repository ppa:ondrej/php
-  ```
-  ```bash
-     sudo apt update
-  ```
+    ```bash
+    sudo apt install software-properties-common
+    ```
+    ```bash
+    sudo add-apt-repository ppa:ondrej/php
+    ```
+    ```bash
+    sudo apt update
+    ```
     
   <br />
   <hr />

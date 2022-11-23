@@ -187,13 +187,12 @@
 
 
 <br />
-<hr />
 <br />
   
     
 <p align="center"><img alt="DBeaver." src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/150px-MySQL_logo.svg.png"></p>
 
-- **MySQL**:
+# **MySQL**:
 
   - Login to mysql as user(-u) root with password(-p):
   - ```bash
@@ -259,7 +258,6 @@
     ```
 
 <br />
-<hr />
 <br />
 
 ## :computer: To Install Composer [open setup link](https://www.digitalocean.com/community/tutorials/how-to-install-composer-on-ubuntu-22-04-quickstart) or follow these steps

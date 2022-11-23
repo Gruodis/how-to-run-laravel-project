@@ -73,7 +73,7 @@
   <br>
   <br>
   
-- ## **Change PHP version**:
+## **Change PHP version**:
 
   - ### **Step 1**: <small>System Update</small>
     ```bash
@@ -100,7 +100,7 @@
   <br>
   <br>
   
-  - **Install PHP v7.4**
+## **Install PHP v7.4**
     ```bash
     sudo apt-get install php7.4 php7.4-fpm
     ```

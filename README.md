@@ -49,12 +49,12 @@
 
   -  After local project files update(``git pull upstream master``):
 
-    ```bash
-    composer update
-    ```
-    ```bash
-    php artisan optimize:clear
-    ```
+      ```bash
+      composer update
+      ```
+      ```bash
+      php artisan optimize:clear
+      ```
 
   - After project Database update:
 

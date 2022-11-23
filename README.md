@@ -131,6 +131,7 @@
   <br>
   
 ## Uninstall PHP and remove Ondrej PPA
+
 > If you don’t require the PHP7.4 and Ondrej PPA anymore on your Ubuntu 22.04 then we can remove them as well. Here are the commands to follow:
 
     ```bash

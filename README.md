@@ -114,7 +114,6 @@
     ```
     
   <br>
-  <br>
   
   - **Step 4**: Switch Default PHP Version for CLI
     ```bash
@@ -123,8 +122,7 @@
     > To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
     
   <br>
-  <br>
-  
+ 
   
   - **You can execute the command below to change the version straight away:**
     ```bash
@@ -136,11 +134,13 @@
     ```bash
     sudo apt-get remove php5.6
     ```
-  Also, uninstall all the modules for that version, **Run the following command**:
-  ```bash
-  sudo apt-get remove php5.6-*
-  ```
-  ## :bangbang: 
+    Also, uninstall all the modules for that version, **Run the following command**:
+    ```bash
+    sudo apt-get remove php5.6-*
+    ```
+   <br> 
+   
+  ## :bangbang: FIX Errors
   
   After PHP version change can't update OS propperly: PHP 8.1 Error _( unmet dependencies )_ FIX
 

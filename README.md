@@ -39,7 +39,7 @@
 <br>
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 
-### PHP
+# PHP
   
   - **DISPLAY IMAGES** with proper url:
 

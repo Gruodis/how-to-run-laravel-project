@@ -65,6 +65,11 @@
       ```bash
          php artisan vendor:publish
       ```
+      
+  <br />
+  <hr />
+  <br />
+  
 - **Change PHP version**:
 
   - **Step 1**: System Update
@@ -144,7 +149,44 @@
   ```bash
      sudo apt-get remove php5.6-*
   ```
-  
+  ### :bangbang: OS update PHP 8.1 Error _( unmet dependencies )_ FIX
+
+  ```bash
+  The following packages have unmet dependencies:
+  php8.1-gd: Depends: php8.1-common (= 8.1.2-1ubuntu2.8) but 8.1.12-1+ubuntu22.04.1+deb.sury.org+1 is to be installed
+  ```
+  - Run:
+    ```bash
+    sudo apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
+    ```
+  - If You get output:
+    ```bash
+    Some packages could not be installed. This may mean that you have
+    requested an impossible situation or if you are using the unstable
+    distribution that some required packages have not yet been created
+    or been moved out of Incoming.
+    The following information may help to resolve the situation:
+
+    The following packages have unmet dependencies:
+     php8.1-gd : Depends: libgd3 (>= 2.3.3) but 2.3.0-2ubuntu2 is to be installed
+    E: Unable to correct problems, you have held broken packages.
+    ```
+  - Run:
+    ```bash
+    sudo apt-get install libgd3
+    ```
+    ```bash
+    sudo apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
+    ```
+    
+    ```bash
+    sudo apt autoremove
+    ```
+    ```bash
+    php -v
+    ```
+
+
 <br />
 <hr />
 <br />

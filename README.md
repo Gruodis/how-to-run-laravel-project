@@ -74,7 +74,7 @@
   
 - **Change PHP version**:
 
-  - ### **Step 1**: <pre>System Update</pre>
+  - ### **Step 1**: <s>System Update</s>
   ```bash
      sudo apt-get update
   ```

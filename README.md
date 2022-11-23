@@ -31,7 +31,7 @@
     - **Product Name:** MySQL/MariaDB
 
 <br />
-<hr />
+---
 <br />
 <p align="center"><img alt="php" width="150" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"></p>
 

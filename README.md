@@ -149,7 +149,7 @@
   ```bash
      sudo apt-get remove php5.6-*
   ```
-  ### :bangbang: OS update PHP 8.1 Error _( unmet dependencies )_ FIX
+## :bangbang: After PHP version change can't update OS propperly: PHP 8.1 Error _( unmet dependencies )_ FIX
 
   ```bash
   The following packages have unmet dependencies:

@@ -6,6 +6,9 @@
 <h1 align="center"> Composer & MySQL setup.</h1>
 
 
+  - [Install Composer](#essentials)
+    - [DBeaver](#dbeaver)
+    - [PHP](#php)
   - [Install Composer](#computer-to-install-composer-open-setup-link-or-follow-these-steps)
   - [Install MySQL](#computer-to-install-mysql-use-this-linkrecommended-or-quick-start-guidenot-recommended-or-follow-these-steps)
     - [Configure MySQL](#wrench-configuring-mysql)
@@ -28,7 +31,8 @@
   <a href="https://dbeaver.io/download"  target=”_blank”>[Community version]</a>
 </p>
 
-  - DBeaver Local Client info
+# DBeaver
+  - Local Client info
     - **ID/PATH/NAME:** ``/run/user/1000/doc/22d5bb09/bin``
     - **Product Name:** MySQL/MariaDB
 
@@ -41,6 +45,12 @@
 
 # PHP
   
+  - **Regenerate** thumbnails:
+  
+      ```bash
+      php artisan media-library:regenerate
+      ```
+      
   - **DISPLAY IMAGES** with proper url:
 
       ```bash

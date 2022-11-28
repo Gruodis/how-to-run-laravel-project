@@ -6,7 +6,7 @@
 <h1 align="center"> Composer & MySQL setup.</h1>
 
 
-  - Essentials:
+  - Essential commands:
     - [DBeaver](#dbeaver)
     - [PHP](#php)
     - [MySql](#mysql)

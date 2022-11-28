@@ -6,9 +6,10 @@
 <h1 align="center"> Composer & MySQL setup.</h1>
 
 
-  - [Install Composer](#essentials)
+  - Install Composer
     - [DBeaver](#dbeaver)
     - [PHP](#php)
+    - [MySql](#mysql)
   - [Install Composer](#computer-to-install-composer-open-setup-link-or-follow-these-steps)
   - [Install MySQL](#computer-to-install-mysql-use-this-linkrecommended-or-quick-start-guidenot-recommended-or-follow-these-steps)
     - [Configure MySQL](#wrench-configuring-mysql)

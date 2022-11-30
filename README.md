@@ -20,6 +20,24 @@
 
 <br>
 
+## Laravel and Browser sync:
+
+Full article is: [here](https://joncgrubb.github.io/2017/11/BrowserSync-With-Laravel.html)
+
+Or just instead of:
+```bash
+mix.js('resources/assets/js/app.js', 'public/js')
+ .sass('resources/assets/sass/app.scss', 'public/css');
+```
+
+like this:
+```bash
+mix.js('resources/assets/js/app.js', 'public/js')
+   .sass('resources/assets/sass/app.scss', 'public/css')
+   .browserSync('http://localhost:8000');
+```
+
+
 ***
 
 <br>

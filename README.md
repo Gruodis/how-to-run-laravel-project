@@ -52,7 +52,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 # DBeaver
   - Local Client info
-    - **ID/PATH/NAME:** ``/run/user/1000/doc/22d5bb09/bin``
+    - **ID/PATH/NAME:** ```/usr/bin```
     - **Product Name:** MySQL/MariaDB
 
 <br>

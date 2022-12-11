@@ -151,15 +151,21 @@ mix.js('resources/assets/js/app.js', 'public/js')
     ```
     
   <br>
+  - Check Check PHP loaded modules:
+    ```bash
+    php -m
+    ```
+    
+  <br>
   
-  - **Step 3**: Check Active PHP Version:
+  - Check Active PHP Version:
     ```bash
     php -v
     ```
     
   <br>
   
-  - **Step 4**: Switch Default PHP Version for CLI
+### Switch Default PHP Version for CLI
     ```bash
     sudo update-alternatives --config php
     ```

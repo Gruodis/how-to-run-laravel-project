@@ -9,6 +9,8 @@
   - Essential commands:
     - [DBeaver](#dbeaver)
     - [PHP](#php)
+      - [install multiple PHP versions](#change-php-version)
+      - [change PHP versions](#install-php-v74)
     - [MySql](#mysql)
   - [Install Composer](#computer-to-install-composer-open-setup-link-or-follow-these-steps)
   - [Install MySQL](#computer-to-install-mysql-use-this-linkrecommended-or-quick-start-guidenot-recommended-or-follow-these-steps)

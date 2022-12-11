@@ -116,6 +116,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
   - **Step 2**: Installing Multiple PHP Versions on Ubuntu 22.04
     ```bash
     sudo apt install software-properties-common
+    - OR
+    sudo apt install software-properties-common apt-transport-https -y
     ```
     ```bash
     sudo add-apt-repository ppa:ondrej/php
@@ -123,16 +125,27 @@ mix.js('resources/assets/js/app.js', 'public/js')
     ```bash
     sudo apt update
     ```
+    ```bash
+    sudo apt upgrade
+    ```
     
   <br>
-  
+ 
+
 ## **Install PHP v7.4**
-    ```bash
-    sudo apt-get install php7.4 php7.4-fpm
-    ```
+  - Install PHP 7.4 using the following command:
+
+  ```bash
+  sudo apt-get install php7.4 php7.4-fpm
+  sudo apt install php7.4 php7.4-fpm libapache2-mod-fcgid
+  ```
+    
   - And install some common PHP7.4 extensions:
     ```bash
     sudo apt-get install php7.4-zip php7.4-mysql php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
+    
+    sudo apt-get install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl -y
+
     ```
     
   <br>

@@ -103,7 +103,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
       
   <br>
   
-## **Change PHP version**:
+## **Multiple PHP versions**:
 
   - ### **Step 1**: <small>System Update</small>
     ```bash
@@ -151,7 +151,9 @@ mix.js('resources/assets/js/app.js', 'public/js')
     ```
     
   <br>
+  
   - Check Check PHP loaded modules:
+
     ```bash
     php -m
     ```
@@ -159,6 +161,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
   <br>
   
   - Check Active PHP Version:
+ 
     ```bash
     php -v
     ```
@@ -166,10 +169,12 @@ mix.js('resources/assets/js/app.js', 'public/js')
   <br>
   
 ### Switch Default PHP Version for CLI
-    ```bash
-    sudo update-alternatives --config php
-    ```
-    > To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
+
+```bash
+sudo update-alternatives --config php
+```
+    
+  > To change the default version, enter the number that matches the appropriate version you want to make as the default and press **ENTER**.
     
   <br>
  

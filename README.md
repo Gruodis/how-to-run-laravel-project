@@ -271,26 +271,31 @@ sudo update-alternatives --config php
     
     <br />
     <br />
+  - Show MySQL Databases
+    ```mysql
+    SHOW DATABASES;
+    ```
+    <br />
     
   - DELETE Database
     ```mysql
-       mysql> DROP DATABASE my_dabase;
+    DROP DATABASE my_dabase;
     ```
     <br />
       
   - CREATE Database
     ```mysql
-       mysql> CREATE DATABASE my_dabase;
+    CREATE DATABASE my_dabase;
     ```
     <br />
     <br />
   - RESTORE/IMOPRT .sql
     _Database must be created and **EMPTY**, then run_:
     ```mysql
-       mysql> USE my_dabase;
+    USE my_dabase;
     ```
     ```mysql
-       mysql> SOURCE /home/user/Downloads/my_database.sql;
+    SOURCE /home/user/Downloads/my_database.sql;
     ```
     
   - To exit >mysql:
